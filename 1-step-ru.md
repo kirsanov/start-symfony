@@ -14,3 +14,9 @@
 
     php bin/console debug:router
 
+Работа с базой данных - генератор сущностей
+
+    php bin/console make:entity FirstOrder
+    php bin/console make:migration
+    php bin/console doctrine:migrations:migrate
+
